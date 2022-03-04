@@ -1,0 +1,283 @@
+.districtHeader {
+	background-color: red;
+	display: flex;
+	height: 50px;
+	padding-right: 5px;
+	padding-left: 5px;
+	align-items: center;
+}	
+
+.districtSocials {
+	margin-right: auto;
+	overflow: visible;
+	float: left;
+	padding-left: 30px;
+}
+
+.districtInfo {
+	display: flex;
+	align-content: space-between;
+	float: right;
+	padding-right: 30px;
+}
+h1{
+	color: black;
+	font-size: 36px;
+	
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+	color: black;
+	font-size: 24px;
+
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+	color: black;
+	font-size: 17px;
+	
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+p {
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hinojosaTitle {
+	margin-right: auto;
+}
+
+.hinojosaHeader {
+	display:flex;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-left: 39px;
+}
+
+.navSocials {
+	display: flex;
+	align-items: stretch;
+	align-items: center;
+	justify-content: center;
+}
+
+.big-image {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, .15);
+	color: white;
+	display: flex;
+	align-items:center;
+	justify-content:left;
+	flex-direction: column;
+}
+.overlay p {
+	font-size: 18px;
+}
+#mainNav {
+	margin-left: auto;
+	align-items: flex-end;
+	justify-content: space-evenly;
+	padding-top: 100px;
+	padding-right: 15px;
+}
+
+.navLink {
+	text-decoration: none;
+	color: black;
+	padding-left: 20px;
+}
+
+.distNavLink {
+	justify-content: space-evenly;
+	text-decoration: none;
+	color: black;
+	padding-left: 20px;
+	
+}
+
+.quickLinks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	background-color: red;
+	height: auto;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.quickLinksItem {
+	list-style-type: none;
+	align-content: center;
+}
+
+.vl {
+	border-left: 2px solid rgba(0, 0, 0, .15); 
+	height: auto;
+  }
+
+.newsletter {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.navContainer {
+	display: flex;
+	align-content: center;
+	background-color: #E73F34;
+	height: auto;
+	display: grid;
+	grid-gap: 30px;
+	padding: 90px 90px;
+	grid-template-areas: 
+	'toplft topmd toprt toprt toprt'
+	'btmlft topmd trilft trimd trirt';
+  }
+
+  .navContainer > div {
+	background-color: #D72222;
+	border-radius: 15px;
+	padding: 50px 0;
+	text-align: center;
+  }
+
+  .item1 {
+	  grid-area: toplft;
+  }
+
+  .item1 h2 {
+	  font-size: 23px;
+  }
+  .item2 {
+	  grid-area: btmlft;
+  }
+  .item2 h2 {
+	  font-size: 23px;
+  }
+
+  .item3 {
+	  grid-area: topmd;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: stretch;
+	  justify-content: center;
+	}
+
+  .item3 h2 {
+	  font-size: 23px;
+  }
+
+  .item4 {
+	  grid-area: toprt;
+	  display: flex;
+	  align-items: stretch;
+	  align-items: center;
+	  justify-content: center;
+  }
+
+  .item4 h2 {
+	  font-size: 30px;
+	  padding-left: 50px;
+  }
+
+  .item5 {
+	grid-area: trilft;
+}
+
+.item5 h2 {
+	font-size: 23px;
+}
+
+  .item6 {
+	grid-area: trimd;
+}
+
+.item6 h2 {
+	font-size: 23px;
+}
+
+.item7 {
+  grid-area: trirt;
+}
+
+.item7 h2 {
+	font-size: 23px;
+}
+
+.newsletterHeader{
+	display: flex;
+	background-color: red;
+	padding-left: 20px;
+	align-content: center;
+	height: 60px;
+}
+.footer {
+	background-color: #4A4A4A;
+	height: 250px;
+    padding-right: 100px;
+	
+}
+
+.logo {
+	background-color: #4A4A4A;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-items: left;
+	padding-top: 52px;
+	padding-left: 10px;
+}
+
+.footer {
+    background-color: #4A4A4A;
+	color: white;
+    height: 250px;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerSocials {
+    justify-self: center;
+}
+
+.column {
+    margin: 15px;
+}
+
+.leftRow {
+    justify-self: center;
+}
+
+.logo {
+    background-color: #4A4A4A;
+    padding-top: 52px;
+    padding-left: 10px;
+    align-self: flex-start;
+}
+
+.eventSection {
+    display: flex;
+    justify-content:space-between
+}
+
+.events {
+    padding-left: 20px
+}
